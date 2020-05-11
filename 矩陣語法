@@ -1,0 +1,10 @@
+建立一個矩陣Array:
+  一個有值的矩陣:
+  List<Integer> list = Arrays.asList(5,6,7,8);
+  一個空值的矩陣:
+  ArrayList<Integer> list = new ArrayList<>();         後面<>可省略Integer
+  
+  
+  
+Java 5 之前的語法抓值
+points.remove(Integet.valueof("2"));
