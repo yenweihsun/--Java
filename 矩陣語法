@@ -16,7 +16,12 @@
 String s = "Java";
 s.concat("SCJP");
 sout(s);  // Java  
-有 = 就是改變原有的指向
+有 '=' 就是改變原有的指向
+
+字串轉int:
+String a ="200";
+int int_a = Integer.parseInt(a);
+sout(int_a);
 
 人機互動:
 Scanner sc = new Scanner(System.in);
