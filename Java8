@@ -1,6 +1,6 @@
 Java8 語法------
   
-
+int sum = IntStream.range(1,scoresSorted.length)
 
 
 
