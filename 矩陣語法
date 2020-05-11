@@ -1,10 +1,43 @@
-建立一個矩陣Array:
+一、建立一個矩陣Array:
   一個有值的矩陣:
   List<Integer> list = Arrays.asList(5,6,7,8);
   一個空值的矩陣:
   ArrayList<Integer> list = new ArrayList<>();         後面<>可省略Integer
   
   
-  
-Java 5 之前的語法抓值
-points.remove(Integet.valueof("2"));
+補充:  
+一、Java 5 之前的語法抓值:
+    points.remove(Integet.valueof("2"));
+
+二、矩陣預設給的值 是 null
+
+三、字串的改變
+
+String s = "Java";
+s.concat("SCJP");
+sout(s);  // Java  
+有 = 就是改變原有的指向
+
+人機互動:
+Scanner sc = new Scanner(System.in);
+int n = sc.nextInt();
+亂數:
+int w = new Random().nextInt(10);  // 0~9
+
+補充:
+soutf((n%2 == 0)? "偶數":"奇數" );
+
+建構子沒有回傳值
+50000 可以用 5_0000 表達
+方法要有回傳值
+區域變數不能封裝
+字串轉日期 SimpleDateFormate:
+SimpleDateFormate sdf = new SimpleDateFormat("yyyy/MM/dd");
+String birth = "2018/5/12";
+Date birth = sdf.parse(birth);  // import Date & throws ParseException
+
+
+Math.pow(8,2); //64 平方
+Math.abs(-10); //10 絕對值
+String word = "she sell sea shell on the sea shore";
+String [] word = word.split(" ")  // split 切割 , 以" " 切割word 成陣列 [she,sell,sea,....,shore] 
